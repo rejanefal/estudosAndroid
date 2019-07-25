@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Primeiro Projeto</string>
+    <string name="num_sorteado">Nenhum número sorteado!s</string>
+</resources>
