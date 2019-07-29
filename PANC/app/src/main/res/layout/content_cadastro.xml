@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/fotoPlanta"
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        app:srcCompat="@drawable/ic_menu_camera" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:textSize="20dp"/>
+
+    <android.inputmethodservice.ExtractEditText
+        android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="65dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="História:"
+        android:textSize="20dp"/>
+
+    <android.inputmethodservice.ExtractEditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtHistoria"
+        android:layout_height="65dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cientifico:"
+        android:textSize="20dp"/>
+
+    <android.inputmethodservice.ExtractEditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtCientifico"
+        android:layout_height="65dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Região:"
+        android:textSize="20dp"/>
+
+    <android.inputmethodservice.ExtractEditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtRegiao"
+        android:layout_height="65dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enviar"
+        android:id="@+id/btnCadastrar"/>
+</LinearLayout>
