@@ -8,7 +8,7 @@
     <ImageView
         android:id="@+id/fotoPlanta"
         android:layout_width="match_parent"
-        android:layout_height="186dp"
+        android:layout_height="146dp"
         app:srcCompat="@drawable/ic_menu_camera" />
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -17,10 +17,10 @@
         android:text="Nome:"
         android:textSize="20dp"/>
 
-    <android.inputmethodservice.ExtractEditText
+    <android.widget.EditText
         android:id="@+id/edtNome"
         android:layout_width="match_parent"
-        android:layout_height="65dp" />
+        android:layout_height="wrap_content" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
@@ -28,10 +28,10 @@
         android:text="História:"
         android:textSize="20dp"/>
 
-    <android.inputmethodservice.ExtractEditText
-        android:layout_width="match_parent"
+    <android.widget.EditText
         android:id="@+id/edtHistoria"
-        android:layout_height="65dp" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
@@ -39,10 +39,10 @@
         android:text="Cientifico:"
         android:textSize="20dp"/>
 
-    <android.inputmethodservice.ExtractEditText
-        android:layout_width="match_parent"
+    <android.widget.EditText
         android:id="@+id/edtCientifico"
-        android:layout_height="65dp" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
@@ -50,14 +50,14 @@
         android:text="Região:"
         android:textSize="20dp"/>
 
-    <android.inputmethodservice.ExtractEditText
-        android:layout_width="match_parent"
+    <android.widget.EditText
         android:id="@+id/edtRegiao"
-        android:layout_height="65dp" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCadastrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="enviar"
-        android:id="@+id/btnCadastrar"/>
+        android:text="enviar" />
 </LinearLayout>

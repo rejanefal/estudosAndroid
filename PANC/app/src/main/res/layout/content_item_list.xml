@@ -5,12 +5,13 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imgPlanta"
         android:layout_width="190dp"
         android:layout_height="match_parent"
         app:srcCompat="@drawable/ic_menu_camera" />
 
-    <androidx.appcompat.widget.AppCompatTextView
+    <TextView
+        android:id="@+id/txtNomePlanta"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Nome:"
